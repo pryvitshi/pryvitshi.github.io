@@ -32,7 +32,7 @@ const bookSections = {
     {
       type: 'ai',
       content: `<p>Ні, я не думаю, як людина. Я навчаюсь на основі великої кількості інформації та використовую правила, щоб знаходити відповіді. Це схоже на те, як ти вивчаєш нові слова, поступово набуваючи нові знання.</p>
-      <img src="img/aipic_01.webp" alt="Робот вчить абетку" class="cover-image">``
+      <img src="img/aipic_01.webp" alt="Робот вчить абетку" class="cover-image">`
     },
     {
       type: 'user',
@@ -45,7 +45,7 @@ const bookSections = {
     {
       type: 'ai',
       content: `<blockquote>Цікавий факт: Ідеї про штучний інтелект з’являлися ще до появи комп’ютерів – у давніх міфах розповідали про статуї, що оживають!</blockquote>
-                <img src="img/aipic_02.webp" alt="Статуя оживає" class="cover-image">>`
+                <img src="img/aipic_02.webp" alt="Статуя оживає" class="cover-image">`
     }
   ],
   chapter2: [
