@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Привіт, ШІ!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Контейнер для десктопної версії -->
+  <div class="container">
+    <aside class="sidebar">
+      <div class="section-selector">
+        <button class="section-btn active" data-section="intro">Вступ</button>
+        <button class="section-btn" data-section="chapter1">Хто ти, ШІ?</button>
+        <button class="section-btn" data-section="chapter2">Як працює ШІ?</button>
+        <button class="section-btn" data-section="chapter3">Які бувають види ШІ?</button>
+        <button class="section-btn" data-section="chapter4">Навчання машин</button>
+        <button class="section-btn" data-section="chapter5">Генеративний ШІ</button>
+        <button class="section-btn" data-section="chapter6">Чи може ШІ стати злим?</button>
+        <button class="section-btn" data-section="chapter7">Давай пограємо!</button>
+        <button class="section-btn" data-section="chapter8">Майбутнє ШІ</button>
+        <button class="section-btn" data-section="glossary">Словничок</button>
+        <button class="section-btn" data-section="note">Примітка</button>
+      </div>
+    </aside>
+
+    <div class="chat-area">
+      <header>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <h1>Привіт, ШІ!</h1>
+          <p>Інтерактивна книга для дітей</p>
+        </div>
+      </header>
+      <div class="chat-window" id="chatWindow">
+        <!-- Повідомлення завантажуватимуться сюди -->
+      </div>
+      <div class="navigation">
+        <button class="nav-btn" id="prevBtn" disabled>Назад</button>
+        <button class="nav-btn" id="nextBtn">Далі</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Мобільне меню (показується при натисканні гамбургера) -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" id="closeMenu">&times;</button>
+    <div class="section-selector">
+      <button class="section-btn active" data-section="intro">Вступ</button>
+      <button class="section-btn" data-section="chapter1">Хто ти, ШІ?</button>
+      <button class="section-btn" data-section="chapter2">Як працює ШІ?</button>
+      <button class="section-btn" data-section="chapter3">Які бувають види ШІ?</button>
+      <button class="section-btn" data-section="chapter4">Навчання машин</button>
+      <button class="section-btn" data-section="chapter5">Генеративний ШІ</button>
+      <button class="section-btn" data-section="chapter6">Чи може ШІ стати злим?</button>
+      <button class="section-btn" data-section="chapter7">Давай пограємо!</button>
+      <button class="section-btn" data-section="chapter8">Майбутнє ШІ</button>
+      <button class="section-btn" data-section="glossary">Словничок</button>
+      <button class="section-btn" data-section="note">Примітка</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
